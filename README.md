@@ -13,7 +13,7 @@ Este projeto implementa um sistema simples de login com autenticação em duas e
 ## ⚙️ Pré-requisitos
 
 - PHP 7.4 ou superior
-- MySQL/MariaDB
+- MySQL
 - Extensão `openssl` habilitada
 - Conta Gmail com [senha de app](https://support.google.com/accounts/answer/185833)
 
@@ -22,5 +22,7 @@ Este projeto implementa um sistema simples de login com autenticação em duas e
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
-cd nome-do-repositorio
+git clone https://github.com/thiagofogaca25/-Sistema-de-Login-com-2FA-em-PHP
+cd Sistema-de-Login-com-2FA-em-PHP
+
+
