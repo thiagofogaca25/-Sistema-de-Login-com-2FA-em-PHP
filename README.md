@@ -59,6 +59,7 @@ $mail->setFrom('seuemail@gmail.com', 'PHP Auth_2FA');
 ⚠️ Importante: Use uma senha de aplicativo do Gmail, não sua senha principal.
 
 ▶️ Como usar
+
 Acesse http://localhost:8000/register.html e crie sua conta.
 
 Faça login em login.html.
@@ -70,6 +71,7 @@ Insira o código na tela 2fa.php.
 Acesso garantido à página protegida index.php.
 
 🔐 Segurança
+
 Senhas armazenadas com password_hash()
 
 Sessões protegidas com $_SESSION
