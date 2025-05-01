@@ -1,6 +1,4 @@
-Claro! Aqui está a versão mais bonita e organizada do seu README:
 
-````markdown
 # 🔐 Sistema de Login com Verificação em Duas Etapas (2FA)
 
 Este projeto implementa um sistema simples de login com autenticação em duas etapas via e-mail, utilizando **PHP**, **MySQL** e a biblioteca **PHPMailer**.
@@ -125,4 +123,3 @@ Feito com ❤️ e PHP 🐘
 ```
 
 Esse formato deixa o README bem estruturado e fácil de ler. Basta copiar e colar! Se precisar de mais algum ajuste, é só avisar.
-```
