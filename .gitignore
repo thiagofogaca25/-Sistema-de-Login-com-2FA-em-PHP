@@ -1,0 +1,25 @@
+# Ignorar arquivos de configuração locais
+/config/config.local.php
+
+# Ignorar a pasta de cache e logs (se houver)
+/var/
+/tmp/
+/logs/
+
+/vendor/
+
+# Ignorar o diretório do PHPMailer se não for necessário no repositório
+/PHPMailer/src/
+
+# Ignorar arquivos temporários e de compilação do PHP
+*.log
+*.cache
+*.tmp
+
+# Ignorar o diretório de logs
+/logs/
+
+/.env # Se estiver usando variáveis de ambiente
+
+# Ignorar arquivos de senhas e outros dados sensíveis
+*.env
