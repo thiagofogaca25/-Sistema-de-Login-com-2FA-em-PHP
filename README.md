@@ -92,19 +92,9 @@ $mail->setFrom('seuemail@gmail.com', 'PHP Auth_2FA');
 * PHP com OpenSSL ativo
 * MySQL
 
-## 🧾 Exemplo de `.gitignore`
+## 👏 Créditos
 
-Não compartilhe suas configurações sensíveis no Git. Crie um arquivo `.gitignore` com o seguinte conteúdo:
-
-```gitignore
-/config/db.php
-/email/EmailSender.php
-/vendor/
-/*.log
-*.env
-*.bak
-.DS_Store
-```
+* O sistema de envio de e-mails é feito utilizando a biblioteca **PHPMailer**, que pode ser encontrada em [PHPMailer no GitHub](https://github.com/PHPMailer/PHPMailer).
 
 ## 🧠 Melhorias futuras
 
@@ -112,14 +102,3 @@ Não compartilhe suas configurações sensíveis no Git. Crie um arquivo `.gitig
 * Expiração do código 2FA
 * Tela de recuperação de senha
 * Utilização de tokens JWT para autenticação
-
-## 🛠 Autor
-
-**Seu Nome**
-[github.com/seu-usuario](https://github.com/seu-usuario)
-
-Feito com ❤️ e PHP 🐘
-
-```
-
-Esse formato deixa o README bem estruturado e fácil de ler. Basta copiar e colar! Se precisar de mais algum ajuste, é só avisar.
