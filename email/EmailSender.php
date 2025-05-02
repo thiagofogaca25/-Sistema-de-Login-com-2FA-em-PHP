@@ -18,12 +18,12 @@ class EmailSender {
             $mail->isSMTP();
             $mail->Host = 'smtp.gmail.com';
             $mail->SMTPAuth = true;
-            $mail->Username = 'thiagofogacapc2@gmail.com'; // Use um email de testes!
-            $mail->Password = 'xcif ddjh pxhx xazo'; // Use uma senha de app real!
+            $mail->Username = ''; // Use um email de testes!
+            $mail->Password = ''; // Use uma senha de app real!
             $mail->SMTPSecure = 'tls';
             $mail->Port = 587;
 
-            $mail->setFrom('thiagofogacapc2@gmail.com', 'PHP Auth_2FA'); // Use um email de testes!
+            $mail->setFrom('', 'PHP Auth_2FA'); // Use um email de testes!
             $mail->addAddress($destino);
             $mail->isHTML(true);
             $mail->Subject = $assunto;
