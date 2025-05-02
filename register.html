@@ -1,14 +1,81 @@
 <!DOCTYPE html>
-<html>
-<head><title>Cadastro</title></head>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastro</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f1f1f1;
+      display: flex;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+    }
+
+    .register-container {
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      width: 100%;
+      max-width: 350px;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+      width: 90%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    button {
+      padding: 10px 20px;
+      margin-top: 15px;
+      background-color: #2196F3;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    button:hover {
+      background-color: #1976D2;
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 15px;
+      color: #2196F3;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
 <body>
-<h2>Cadastro</h2>
-<form action="auth/register.php" method="post">
-    Nome: <input type="text" name="nome" required><br>
-    Email: <input type="email" name="email" required><br>
-    Senha: <input type="password" name="senha" required><br>
-    <button type="submit">Cadastrar</button>
-</form>
-<a href="login.html">Já tem conta? Login</a>
+  <div class="register-container">
+    <h2>Cadastro</h2>
+    <form action="auth/register.php" method="post">
+      <input type="text" name="nome" placeholder="Nome" required><br>
+      <input type="email" name="email" placeholder="Email" required><br>
+      <input type="password" name="senha" placeholder="Senha" required><br>
+      <button type="submit">Cadastrar</button>
+    </form>
+    <a href="login.html">Já tem conta? Login</a>
+  </div>
 </body>
 </html>
